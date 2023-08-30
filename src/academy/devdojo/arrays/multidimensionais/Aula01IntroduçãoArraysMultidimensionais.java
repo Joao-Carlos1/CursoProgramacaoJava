@@ -14,6 +14,6 @@ public class Aula01IntroduçãoArraysMultidimensionais {
         System.out.println(arrayMulti[0][2]);
         System.out.println(arrayMulti[1][0]);
         System.out.println(arrayMulti[1][1]);
-        System.out.println(arrayMulti[1][2]);
+
     }
 }
