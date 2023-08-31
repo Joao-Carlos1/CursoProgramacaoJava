@@ -13,7 +13,7 @@ public class Aula05DoWhile {
             int u2 = sc.nextInt();
             if (u1 == u2) {
                 System.out.println("Números iguais!");
-            } else if (u1 != u2) {
+            } else {
                 System.out.println("Números diferentes!");
             }
             System.out.println("-----------------------------------");
