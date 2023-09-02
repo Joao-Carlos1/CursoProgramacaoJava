@@ -26,6 +26,6 @@ public class Aula03ExercicoMatrizQuadrada {
             resultado *= matriz[i][i];
         }
 
-        System.out.println("O resultado da multiplicação da diagonal e é: " + resultado);
+        System.out.println("O resultado da multiplicação da diagonal e e é: " + resultado);
     }
 }
