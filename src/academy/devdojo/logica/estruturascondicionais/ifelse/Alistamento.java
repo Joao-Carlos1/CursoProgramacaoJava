@@ -14,7 +14,7 @@ public class Alistamento {
         } else if (gênero.equalsIgnoreCase("masculino") || gênero.equalsIgnoreCase("feminino") && idade <= 18) {
             System.out.println("Alistamento não permitido");
         } else if (gênero.equalsIgnoreCase("feminino") && idade >= 18) {
-            System.out.println("Deseja se alistar?");
+            System.out.println("Deseja se alistarr?");
         }
     }
 }
