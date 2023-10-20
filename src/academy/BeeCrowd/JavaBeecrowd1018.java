@@ -29,7 +29,7 @@ public class JavaBeecrowd1018 {
         value %= 2;
         notas1 = value;
 
-        System.out.println(notas100 + " nota(s) de R$ 110,00");
+        System.out.println(notas100 + " nota(s) de R$ 100,00");
         System.out.println(notas50 + " nota(s) de R$ 50,00");
         System.out.println(notas20 + " nota(s) de R$ 20,00");
         System.out.println(notas10 + " nota(s) de R$ 10,00");
