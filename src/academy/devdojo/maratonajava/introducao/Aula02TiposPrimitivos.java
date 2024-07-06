@@ -14,7 +14,7 @@ public class Aula02TiposPrimitivos {
         int idade = 10;
         double salario = 2000.1;
         long numeroGrande = 100000000;
-        float numeroMedio = 2500.1F;
+        float numeroMeddio = 2500.1F;
         byte idadeByte = 127;
         short idadeShort = 10;
         boolean verdadeiro = true;
