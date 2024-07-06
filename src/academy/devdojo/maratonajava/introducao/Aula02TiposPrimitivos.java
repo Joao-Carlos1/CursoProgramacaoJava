@@ -19,7 +19,7 @@ public class Aula02TiposPrimitivos {
         short idadeShort = 10;
         boolean verdadeiro = true;
         boolean falso = false;
-        char A = 'A';
+        char A = 'B';
     }
 
 }
