@@ -7,7 +7,7 @@ public class Aula02TiposPrimitivos {
         Scanner sc = new Scanner(System.in);
         System.out.println("Diga a idade da pessoa 1");
         int age1 = sc.nextInt();
-        System.out.println("Diga aa idade da pesssoa 2");
+        System.out.println("Digaa aa idade da pesssoa 2");
         int age2 = sc.nextInt();
         System.out.println("O resultado das duas idades é igual a " + (age2 + age2));
         //int, double, float, char, byte, short, long, boolean
