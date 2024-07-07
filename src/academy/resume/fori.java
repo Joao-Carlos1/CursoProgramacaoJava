@@ -1,4 +1,4 @@
-package academy.exercices;
+package academy.resume;
 
 public class fori {
     public static void main(String[] args) {

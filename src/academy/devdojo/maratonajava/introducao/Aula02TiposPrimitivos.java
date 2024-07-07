@@ -11,6 +11,7 @@ public class Aula02TiposPrimitivos {
         int age2 = sc.nextInt();
         System.out.println("O resultado final das duas idades é igual a " + (age2 + age2));
         //int, double, float, char, byte, short, long, boolean
+
         int idade = 10;
         double salario = 2000.1;
         long numeroGrande = 100000000;
