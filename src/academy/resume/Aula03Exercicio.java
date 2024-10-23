@@ -14,9 +14,9 @@ public class Aula03Exercicio {
         adress = sc.nextLine();
         System.out.println("Diga a data de hoje");
         date = sc.nextLine();
-        System.out.println("Diga seu endereço");
+        System.out.println("Diga seu Sálario");
         salary = sc.nextDouble();
-        System.out.println("Eu " + name + ", morando no endereço " + adress + ", confirmo que recebi o sálario de " + salary + " na data " + date);
+        System.out.println("Eu " + name + ", morando no endereço " + adress + ", confirmo que recebi o sálario de " + salary + ", na data " + date);
     }
 
 }
