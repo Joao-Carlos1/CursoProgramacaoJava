@@ -1,24 +1,23 @@
 package academy.resume;
 
+import java.util.Scanner;
+
 public class fori {
     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
 
-        for (int i = 0; i <= 100; i++) {
-            System.out.println(i);
+        double salary;
+
+        System.out.println("Diga seu salário");
+        salary = sc.nextDouble();
+
+        if (salary <= 34712) {
+            salary *= 0.097;
+        } else if (salary > 34712 && salary <= 68507) {
+            salary *= 0.3735;
+        } else {
+            salary *= 0.4950;
         }
-
-        System.out.println("----------------------------------------------------------");
-
-        for (int i = 0; i <= 20; i += 2) {
-
-            System.out.println(i);
-
-        }
-        System.out.println("----------------------------------------------------------");
-        int soma = 0;
-        for (int i = 0; i <= 100; i++) {
-            soma += i;
-
-        }System.out.println(soma);
+        System.out.printf("Seu imposto por cima de seu salário será: %.3f ", salary);
     }
 }
