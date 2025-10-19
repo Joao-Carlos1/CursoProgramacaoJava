@@ -1,0 +1,18 @@
+package academy.devdojo.Fmodificadorestatico.test;
+import academy.devdojo.Fmodificadorestatico.domain.Carro;
+public class carroTest01 {
+    public static void main(String[] args){
+
+        Carro c1 = new Carro("BMW", 280);
+        Carro c2 = new Carro("Mercedes", 275);
+        Carro c3 = new Carro("AUDI", 290);
+
+        System.out.println();
+        Carro.setVelocidadeLimite(60);
+        c1.setVelocidadeMaxima(150);
+
+        c1.imprime();
+        c2.imprime();
+        c3.imprime();
+    }
+}

@@ -2,7 +2,7 @@ package academy.devdojo.anime;
 
 public class Main {
     public static void main(String[] args) {
-        Anime anime = new Anime("Dragon ball", 45, "Ação", "Shonen");
+        Anime anime = new Anime("Dragon ball", 45, "Tv", "Shonen");
 
         System.out.println(anime.getNome());
         System.out.println(anime.getEpisodios());
