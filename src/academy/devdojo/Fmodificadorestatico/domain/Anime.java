@@ -2,9 +2,10 @@ package academy.devdojo.Fmodificadorestatico.domain;
 
 public class Anime {
     private String anime;
-    private int[] episodios;
+    private static int[] episodios;
 
-    {
+    static {
+        System.out.println("Dentro do bloco de inicialização");
         episodios = new int[100];
         for (int i = 0; i < episodios.length ; i++){
             episodios[i] = i + 1;
@@ -16,7 +17,7 @@ public class Anime {
     }
 
     public Anime(){
-        for(int num : this.episodios){
+        for(int num : Anime.episodios){
             System.out.print(num + " ");
         }
         System.out.println();
