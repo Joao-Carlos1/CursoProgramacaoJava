@@ -12,19 +12,17 @@ public class Main {
 
         Aluno aluno1 = new Aluno("Joao", 12);
         Aluno aluno2 = new Aluno("Pedro", 14);
-        Aluno[] alunos = {aluno1, aluno2};
-
+        Local local = new Local("Rua Deraldino");
         Seminario seminario1 = new Seminario("A natureza");
+
+        Aluno[] alunos = {aluno1, aluno2};
         Seminario[] seminarios = {seminario1};
 
-        Local local = new Local("Rua Deraldino");
         aluno1.setSeminario(seminario1);
         aluno2.setSeminario(seminario1);
         seminario1.setLocal(local);
         seminario1.setAlunos(alunos);
         professor1.setSeminarios(seminarios);
-
-
 
         System.out.println("------------------------------");
         seminario1.imprime();
@@ -35,6 +33,5 @@ public class Main {
         aluno1.imprime();
         System.out.println("------------------------------");
         aluno2.imprime();
-
     }
 }

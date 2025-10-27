@@ -10,12 +10,6 @@ public class Aluno {
         this.idade = idade;
     }
 
-    public Aluno(String nome, int idade, Seminario seminario) {
-        this.nome = nome;
-        this.idade = idade;
-        this.seminario = seminario;
-    }
-
     public void imprime(){
         System.out.println("Nome: " +this.nome);
         System.out.println("Idade: " +this.idade);
@@ -32,9 +26,6 @@ public class Aluno {
         this.idade = idade;
     }
 
-    public Seminario getSeminario() {
-        return seminario;
-    }
 
     public void setSeminario(Seminario seminario) {
         this.seminario = seminario;

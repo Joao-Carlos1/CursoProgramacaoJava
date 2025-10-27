@@ -23,6 +23,9 @@ public class Professor {
         }
         for(Seminario seminarios : seminarios){
             System.out.println("Seminário: " + seminarios.getTitulo());
+            for(Aluno aluno : seminarios.getAlunos()){
+                System.out.print("Aluno: " + aluno.getNome());
+        }
         }
     }
 
