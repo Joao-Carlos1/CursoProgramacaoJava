@@ -1,4 +1,5 @@
 package academy.devdojo.JmodificadorFinal.Domain;
 
-public class Ferrari {
+public class Ferrari extends Carro {
+
 }
